@@ -4,6 +4,10 @@ services:
     # image project
     app:
         build:
+            args:
+                user: ${DOCKER_USER}
+                group: ${DOCKER_GROUP}
+                uid: ${DOCKER_UID}
             context: .
             dockerfile: Dockerfile
         restart: unless-stopped
@@ -50,7 +54,7 @@ services:
         platform: linux/x86_64
         restart: unless-stopped
         ports:
-            - "8080:80"
+            - "8989:80"
         environment:
             PMA_HOST: db
             PMA_PORT: 3306
