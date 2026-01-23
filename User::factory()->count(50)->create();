@@ -1,0 +1,11 @@
+[90m= [39m[34;4mApp\Models\User[39;24m {#5195
+    [34mname[39m: "[32mSra. Andréa Lorena Zamana Sobrinho[39m",
+    [34memail[39m: "[32mregina.corona@example.net[39m",
+    [34memail_verified_at[39m: "[32m2026-01-23 18:26:55[39m",
+    #[33mpassword[39m: "[32m$2y$12$LyDM6kHsJek.fu9do.HkCuN/Q0QQx8U/jO7dpCWCqjvw.9j/Vh7CK[39m",
+    #[33mremember_token[39m: "[32mNZ1XZ91hK9[39m",
+    [34mupdated_at[39m: "[32m2026-01-23 18:26:55[39m",
+    [34mcreated_at[39m: "[32m2026-01-23 18:26:55[39m",
+    [34mid[39m: [35m3[39m,
+  }
+
